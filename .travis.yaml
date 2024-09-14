@@ -7,3 +7,4 @@ servised:
 
 script:
   - docker run -e CI=true katerynaShtets/docker-react npm run test
+  
