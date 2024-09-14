@@ -6,4 +6,4 @@ servised:
   -  docker build -t katerynaShtets/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true  katerynaShtets/docker-react npm run test
+  - docker run -e CI=true katerynaShtets/docker-react npm run test
